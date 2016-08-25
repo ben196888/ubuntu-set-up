@@ -9,6 +9,8 @@ git config --global user.email "ben196888@gmail.com"
 git config --global user.name "ben196888"
 # nodejs
 sudo apt-get install -yq nodejs npm
+# setup node
+sudo ln -s `which nodejs` /usr/bin/node
 # python
 sudo apt-get install -yq python python-pip
 # docker
