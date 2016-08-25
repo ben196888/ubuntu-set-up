@@ -7,6 +7,7 @@ sudo apt-get install -yq git vim
 # setup git config
 git config --global user.email "ben196888@gmail.com"
 git config --global user.name "ben196888"
+git config --global push.default simple
 # nodejs
 sudo apt-get install -yq nodejs npm
 # setup node
